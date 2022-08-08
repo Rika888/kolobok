@@ -1,3 +1,6 @@
+* {
+    font-size:16px;
+}
 h1 {
     color: rgb(110, 0, 46); }
 p {color: rgb(20, 121, 7);}
@@ -5,45 +8,35 @@ body {
     background: rgb(131, 34, 15);
     background: radial-gradient(circle, rgb(12, 177, 95) 34%, rgb(5, 188, 194) 62%, rgb(128, 143, 73) 93%);
 }
-
+.sky{
+    margin-top: 4rem;
+}
 iframe {
-    margin-top: 100px;
+    margin-top: 6rem;
     display: flex;
     justify-content: center;
 }
 .support {
     color: black;
-    font-size: 30px;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
+    margin-top: 0rem;
 }
 .what {
-    font-size: 30px;
+    font-size: 2rem;
 }
 .old {
- font-size: 40px;
+ font-size: 3rem;
 }
 .game {display: flex;
 justify-content: center;
-}
-.headers {
-    display: flex;
-    justify-content: center;
 }
 .go {
     background: rgb(108, 15, 131);
     background: radial-gradient(circle, rgb(30, 243, 137) 34%, rgb(204, 7, 188) 62%, rgb(128, 143, 73) 93%);
 }
-.hot {
-    margin-top: 100px;
-    color: aqua;
-    font-size: 40px;
-}
-.cold {
-    margin-top: 100px;
-    color: black;
-    font-size: 35px;
-}
+
 .myButton {
 	box-shadow: 4px 3px 0px 1px #000000;
 	background:linear-gradient(to bottom, #eeff00 5%, #757471 100%);
@@ -67,5 +60,3 @@ justify-content: center;
 	position:relative;
 	top:1px;
 }
-
-        
